@@ -37,6 +37,24 @@ const PROJECTS = [
       "Three.js scene with orbiting planets, custom corona shaders, GSAP camera animations and raycaster-based interaction. Each planet is a section of the portfolio.",
     tech: ["Three.js", "GSAP", "JavaScript", "Vite"],
     github: "https://github.com/dylancrsmith/universe-portfolio-v2"
+  },
+  {
+    id: "finance-excel-analysis",
+    name: "Personal Finance Data Cleaning & Analysis",
+    tagline: "Cleaned and analysed 15,900 messy real-world transactions — 100% formula-driven, zero hardcoded values.",
+    description:
+      "Took a deliberately messy Kaggle dataset (mixed date formats, misspelled categories, corrupted currency symbols, sentinel error values, duplicate rows) and built a fully traceable Excel workbook: nested IF/DATE logic to reconstruct four different date formats, SUBSTITUTE/VALUE chains to clean currency, and INDEX/MATCH lookup tables to correct ~50 category, payment and location misspellings. Flagged data-quality issues (placeholder values, negative amounts) in a dedicated column instead of deleting rows, so every cleaned figure traces back to the untouched raw data. Produced a category x month spend breakdown and income vs. expense dashboard, entirely formula-driven.",
+    tech: ["Excel", "SUMIFS", "INDEX/MATCH", "Data Cleaning", "Data Visualisation"],
+    github: "https://github.com/dylancrsmith/finance-excel-analysis"
+  },
+  {
+    id: "hummilashes",
+    name: "Hummilashes.com — Booking Platform",
+    tagline: "Full-stack freelance client site with live bookings and payments.",
+    description:
+      "Built and shipped a booking website for a lash business client: Supabase database for appointment storage, Stripe integration for payments, and a custom dashboard so the client can manage bookings herself without touching code. Includes a hand-built 3D logo.",
+    tech: ["JavaScript", "CSS", "Supabase", "Stripe"],
+    github: "https://github.com/dylancrsmith/lash-bookings"
   }
 ];
 
