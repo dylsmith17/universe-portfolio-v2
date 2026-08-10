@@ -133,11 +133,13 @@ Seeking graduate roles in AI / ML.`,
     return {
       text: `CV / Resume
 
-Completing final projects before publishing
-a full CV so every build is represented.
-
-In the meantime — reach out directly:`,
+AI & Data Science undergraduate with hands-on
+experience cleaning and analysing real-world
+data in Excel, Python and SQL. Two years of
+frontline operational experience in fast-paced,
+safety-critical environments.`,
       links: [
+        { label: "Download CV (PDF)", url: "/Dylan_Smith_CV.pdf" },
         { label: "dylan3002smith@gmail.com", url: "mailto:dylan3002smith@gmail.com" },
         { label: "linkedin.com/in/dylan-smith-9a0579413", url: "https://www.linkedin.com/in/dylan-smith-9a0579413" }
       ]
